@@ -1,0 +1,103 @@
+<mvc:View controllerName="einCodes.freestyleApp.controller.Main" displayBlock="true"
+   xmlns:layout="sap.ui.layout"
+   xmlns:mvc="sap.ui.core.mvc"
+   xmlns:tnt="sap.tnt"
+   xmlns="sap.m"
+   xmlns:f="sap.f" height="100%">
+   <!-- Start Tool Header -->
+   <tnt:ToolHeader>
+      <Button icon="sap-icon://menu2" type="Transparent"/>
+      <Image src="https://mk0enterpriseirdbne0.kinstacdn.com/wp-content/uploads/2020/02/sap-logo.png" width="3rem"/>
+      <Text text="{i18n>title}"/>
+      <ToolbarSpacer/>
+      <Button icon="sap-icon://search" type="Transparent"/>
+      <Button icon="sap-icon://bell" type="Transparent"/>
+      <Button icon="sap-icon://grid" type="Transparent"/>
+   </tnt:ToolHeader>
+   <!-- Start Dynamic Page -->
+   <f:DynamicPage id="idDynamicPage" headerExpanded="{/headerExpanded}" toggleHeaderOnTitleClick="{/titleClickable}">
+      <!-- Dynamic Page Title -->
+      <f:title>
+         <f:DynamicPageTitle id="idDynamicPageTitle">
+            <f:heading>
+               <Title id="idTitle" text="Apuração Físcal"/>
+            </f:heading>
+            <f:expandedContent>
+               <Label text="Busca Documentos Apuração"/>
+            </f:expandedContent>
+            <f:snappedContent>
+               <Label text="Busca Documentos Apuração"/>
+            </f:snappedContent>
+            <f:snappedTitleOnMobile>
+               <Title text="Apuração Físcal"/>
+            </f:snappedTitleOnMobile>
+            <f:actions>
+               <Button icon="sap-icon://action" type="Transparent"/>
+            </f:actions>
+         </f:DynamicPageTitle>
+      </f:title>
+      <!-- Start Dynamic Page Header -->
+      <f:header>
+         <f:DynamicPageHeader>
+            <layout:HorizontalLayout allowWrapping="true">
+               <ObjectAttribute title="Empresa" text="Dev Consulting Services"/>
+               <ObjectAttribute title="Local" text="Curitiba, Paraná, Brasil"/>
+               <ObjectAttribute title="Desde" text="01 de Jan de 2021"/>
+               <ObjectAttribute title="Até" text="31 de Dez de 9999"/>
+            </layout:HorizontalLayout>
+         </f:DynamicPageHeader>
+      </f:header>
+      <!-- Start Dynamic Page Content : Table-->
+      <f:content>
+         <Table id="idDocumentsTable" class="sapUiSizeCompact" sticky="HeaderToolbar,ColumnHeaders" inset="false" items="{path:'/documents'}" width="auto">
+            <headerToolbar>
+               <Toolbar>
+                  <Title text="Apurações"></Title>
+               </Toolbar>
+            </headerToolbar>
+            <columns>
+               <Column width="30em">
+                  <Text text="Documento:"></Text>
+               </Column>
+               <Column width="8em">
+                  <Text text="Valor Complementar:"></Text>
+               </Column>
+               <Column width="8em">
+                  <Text text="Valor Principal:"></Text>
+               </Column>
+               <Column width="8em">
+                  <Text text="Quantidade:"></Text>
+               </Column>
+               <Column width="8em">
+                  <Text text="Exibir:"></Text>
+               </Column>
+               <Column width="8em">
+                  <Text text="Processar:"></Text>
+               </Column>
+            </columns>
+            <items>
+               <ColumnListItem>
+                  <cells>
+                     <ObjectIdentifier title="{name}" text="{desc}"/>
+                     <ObjectNumber number="{
+                        parts:[{path:'additional_value'}],
+                        type: 'sap.ui.model.type.Currency'
+                     }" unit="{currency}"/>
+                     <ObjectNumber number="{
+                        parts:[{path:'main_value'}],
+                        type: 'sap.ui.model.type.Currency'
+                     }" unit="{currency}"/>
+                     <Text text="{quantity}"/>
+                     <Button icon="sap-icon://documents"/>
+                     <Button icon="sap-icon://process" type="Accept"/>
+                  </cells>
+               </ColumnListItem>
+            </items>
+         </Table>
+      </f:content>
+      <!-- Dynamic Page Footer -->
+			<f:footer>
+
+			</f:footer>
+   </f:DynamicPage>
+</mvc:View>

@@ -1,0 +1,251 @@
+{
+    "header": {
+        "title": "Busca Documentos da Apuração",
+        "company": "FH Consulting Services",
+        "location": "Curitiba, Paraná, Brasil",
+        "start_date": "1999-08-04T00:00:00.000Z",
+        "valid_date": "9999-08-04T00:00:00.000Z"
+    },
+    "documents": [
+        {
+            "_id": "DOC0001",
+            "index": 0,
+            "name": "AJUSTE FISCAIS",
+            "desc": "Valor dos Ajustes oriundos de Docs, Débitos e Créditos",
+            "currency": "BRL",
+            "additional_value": 58.35,
+            "main_value": 58.35,
+            "quantity": 2
+        },
+        {
+            "_id": "DOC0002",
+            "index": 1,
+            "name": "C100-ENT",
+            "desc": "Notas Fiscais de entrada (C100)",
+            "currency": "BRL",
+            "additional_value": 978.20,
+            "main_value": 1016.85,
+            "quantity": 8
+        },
+        {
+            "_id": "DOC0003",
+            "index": 2,
+            "name": "C100-SAI",
+            "desc": "Notas Fiscais de saída (C100)",
+            "currency": "BRL",
+            "additional_value": 3258.20,
+            "main_value": 32586.85,
+            "quantity": 38
+        },
+        {
+            "_id": "DOC0004",
+            "index": 3,
+            "name": "E110-SDOCRED",
+            "desc": "Saldo Credor – ICMS Normal (E110)",
+            "currency": "BRL",
+            "additional_value": 10658.35,
+            "main_value": 10658.35,
+            "quantity": 3
+        },
+        {
+            "_id": "DOC0005",
+            "index": 4,
+            "name": "E111-AJICM",
+            "desc": "Ajustes da Apuração ICMS (E111)",
+            "currency": "BRL",
+            "additional_value": 208.35,
+            "main_value": 208.35,
+            "quantity": 5
+        },
+        {
+            "_id": "DOC0006",
+            "index": 5,
+            "name": "E111-OBRICM",
+            "desc": "Obrigações do ICMS (E111)",
+            "currency": "BRL",
+            "additional_value": 58.35,
+            "main_value": 58.35,
+            "quantity": 2
+        },
+        {
+            "_id": "DOC0001",
+            "index": 0,
+            "name": "AJUSTE FISCAIS",
+            "desc": "Valor dos Ajustes oriundos de Docs, Débitos e Créditos",
+            "currency": "BRL",
+            "additional_value": 58.35,
+            "main_value": 58.35,
+            "quantity": 2
+        },
+        {
+            "_id": "DOC0002",
+            "index": 1,
+            "name": "C100-ENT",
+            "desc": "Notas Fiscais de entrada (C100)",
+            "currency": "BRL",
+            "additional_value": 978.20,
+            "main_value": 1016.85,
+            "quantity": 8
+        },
+        {
+            "_id": "DOC0003",
+            "index": 2,
+            "name": "C100-SAI",
+            "desc": "Notas Fiscais de saída (C100)",
+            "currency": "BRL",
+            "additional_value": 3258.20,
+            "main_value": 32586.85,
+            "quantity": 38
+        },
+        {
+            "_id": "DOC0004",
+            "index": 3,
+            "name": "E110-SDOCRED",
+            "desc": "Saldo Credor – ICMS Normal (E110)",
+            "currency": "BRL",
+            "additional_value": 10658.35,
+            "main_value": 10658.35,
+            "quantity": 3
+        },
+        {
+            "_id": "DOC0005",
+            "index": 4,
+            "name": "E111-AJICM",
+            "desc": "Ajustes da Apuração ICMS (E111)",
+            "currency": "BRL",
+            "additional_value": 208.35,
+            "main_value": 208.35,
+            "quantity": 5
+        },
+        {
+            "_id": "DOC0006",
+            "index": 5,
+            "name": "E111-OBRICM",
+            "desc": "Obrigações do ICMS (E111)",
+            "currency": "BRL",
+            "additional_value": 58.35,
+            "main_value": 58.35,
+            "quantity": 2
+        },
+        {
+            "_id": "DOC0001",
+            "index": 0,
+            "name": "AJUSTE FISCAIS",
+            "desc": "Valor dos Ajustes oriundos de Docs, Débitos e Créditos",
+            "currency": "BRL",
+            "additional_value": 58.35,
+            "main_value": 58.35,
+            "quantity": 2
+        },
+        {
+            "_id": "DOC0002",
+            "index": 1,
+            "name": "C100-ENT",
+            "desc": "Notas Fiscais de entrada (C100)",
+            "currency": "BRL",
+            "additional_value": 978.20,
+            "main_value": 1016.85,
+            "quantity": 8
+        },
+        {
+            "_id": "DOC0003",
+            "index": 2,
+            "name": "C100-SAI",
+            "desc": "Notas Fiscais de saída (C100)",
+            "currency": "BRL",
+            "additional_value": 3258.20,
+            "main_value": 32586.85,
+            "quantity": 38
+        },
+        {
+            "_id": "DOC0004",
+            "index": 3,
+            "name": "E110-SDOCRED",
+            "desc": "Saldo Credor – ICMS Normal (E110)",
+            "currency": "BRL",
+            "additional_value": 10658.35,
+            "main_value": 10658.35,
+            "quantity": 3
+        },
+        {
+            "_id": "DOC0005",
+            "index": 4,
+            "name": "E111-AJICM",
+            "desc": "Ajustes da Apuração ICMS (E111)",
+            "currency": "BRL",
+            "additional_value": 208.35,
+            "main_value": 208.35,
+            "quantity": 5
+        },
+        {
+            "_id": "DOC0006",
+            "index": 5,
+            "name": "E111-OBRICM",
+            "desc": "Obrigações do ICMS (E111)",
+            "currency": "BRL",
+            "additional_value": 58.35,
+            "main_value": 58.35,
+            "quantity": 2
+        },
+        {
+            "_id": "DOC0001",
+            "index": 0,
+            "name": "AJUSTE FISCAIS",
+            "desc": "Valor dos Ajustes oriundos de Docs, Débitos e Créditos",
+            "currency": "BRL",
+            "additional_value": 58.35,
+            "main_value": 58.35,
+            "quantity": 2
+        },
+        {
+            "_id": "DOC0002",
+            "index": 1,
+            "name": "C100-ENT",
+            "desc": "Notas Fiscais de entrada (C100)",
+            "currency": "BRL",
+            "additional_value": 978.20,
+            "main_value": 1016.85,
+            "quantity": 8
+        },
+        {
+            "_id": "DOC0003",
+            "index": 2,
+            "name": "C100-SAI",
+            "desc": "Notas Fiscais de saída (C100)",
+            "currency": "BRL",
+            "additional_value": 3258.20,
+            "main_value": 32586.85,
+            "quantity": 38
+        },
+        {
+            "_id": "DOC0004",
+            "index": 3,
+            "name": "E110-SDOCRED",
+            "desc": "Saldo Credor – ICMS Normal (E110)",
+            "currency": "BRL",
+            "additional_value": 10658.35,
+            "main_value": 10658.35,
+            "quantity": 3
+        },
+        {
+            "_id": "DOC0005",
+            "index": 4,
+            "name": "E111-AJICM",
+            "desc": "Ajustes da Apuração ICMS (E111)",
+            "currency": "BRL",
+            "additional_value": 208.35,
+            "main_value": 208.35,
+            "quantity": 5
+        },
+        {
+            "_id": "DOC0006",
+            "index": 5,
+            "name": "E111-OBRICM",
+            "desc": "Obrigações do ICMS (E111)",
+            "currency": "BRL",
+            "additional_value": 58.35,
+            "main_value": 58.35,
+            "quantity": 2
+        }
+    ]
+}
