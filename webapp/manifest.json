@@ -54,10 +54,7 @@
         "type": "sap.ui.model.resource.ResourceModel",
         "settings": {
           "bundleName": "einCodes.freestyleApp.i18n.i18n",
-          "supportedLocales": [
-            "en",
-            "pt"
-          ],
+          "supportedLocales": ["en","pt_BR"],
           "fallbackLocale": "en"
         }
       }
